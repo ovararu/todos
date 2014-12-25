@@ -107,7 +107,6 @@ Template.appBody.events({
 
   'click #menu a': function() {
     Session.set(MENU_KEY, false);
-    console.log('hello');
   },
 
   'click .js-logout': function() {
